@@ -1,13 +1,8 @@
 {
     "name": "cityoflearning/doksoft_tinymce_foundation_tools",
     "description": "This is a purchased library of tools for TinyMCE",
-    "require": {
-        "tinymce/tinymce": ">= 4"
-    },
-    "authors": [
-        {
-            "name": "Lavi Yatziv",
-            "email": "Lavi.Yatziv@gmail.com"
-        }
-    ]
+    "authors": [{
+        "name": "Lavi Yatziv",
+        "email": "Lavi.Yatziv@gmail.com"
+    }]
 }
