@@ -4,7 +4,6 @@
     "version": "1.0.0",
     "type": "library",
     "require": {
-        "composer/installers": "~1.0",
         "tinymce/tinymce": ">= 4"
     },
     "authors": [{
