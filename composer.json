@@ -4,7 +4,7 @@
     "version": "1.0.0",
     "type": "library",
     "require": {
-        "tinymce/tinymce": ">= 4"
+        "tinymce/tinymce": "= 4.1.7"
     },
     "authors": [{
         "name": "Lavi Yatziv",
