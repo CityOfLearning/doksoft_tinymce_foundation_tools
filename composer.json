@@ -2,12 +2,8 @@
     "name": "cityoflearning/doksoft_tinymce_foundation_tools",
     "description": "This is a purchased library of tools for TinyMCE",
     "version": "1.0.0",
-    "type": "library",
-    "require": {
-        "tinymce/tinymce": "= 4.1.7"
-    },
     "authors": [{
-        "name": "Lavi Yatziv",
-        "email": "Lavi.Yatziv@gmail.com"
+        "name": "doksoft",
+        "homepage": "http://doksoft.com/soft/tinymce-foundation/index.html"
     }]
 }
