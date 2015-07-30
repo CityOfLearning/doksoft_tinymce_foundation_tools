@@ -12,7 +12,7 @@ $config['BaseUrl'] = sprintf("%s://%s",isset($_SERVER['HTTPS']) && $_SERVER['HTT
 // By default it automatically detects the directory.
 // You can change it, see this example:
 // $config['BaseDir'] = "/var/www/ckeditor_or_tinymce/doksoft_uploader/userfiles/";
-$config['BaseDir'] = $_SERVER['DOCUMENT_ROOT'].'/assets/images/';
+$config['BaseDir'] = $_SERVER['DOCUMENT_ROOT'].'/assets/images/uploads';
 
 $config['ResourceType']['Files'] = Array(
 		'maxSize' => 0, 			// maxSize in bytes for uploaded files, 0 for any
