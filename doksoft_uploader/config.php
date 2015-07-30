@@ -5,14 +5,14 @@
 // By default script is configured to automatically detect it.
 // If you want to change it, do it like this:
 // $config['BaseUrl'] = 'http://yoursite.com/ckeditor_or_tinymce/plugins/doksoft_uploader/userfiles/';
-$config['BaseUrl'] = sprintf("%s://%s",isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] != 'off' ? 'https' : 'http',$_SERVER['HTTP_HOST'])."/assets/images/uploads/";
+$config['BaseUrl'] = sprintf("%s://%s",isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] != 'off' ? 'https' : 'http',$_SERVER['HTTP_HOST'])."/assets/images/";
 
 // Absolute or relative path to directory on the server where uploaded files will be stored.
 // Used by this PHP script only.
 // By default it automatically detects the directory.
 // You can change it, see this example:
 // $config['BaseDir'] = "/var/www/ckeditor_or_tinymce/doksoft_uploader/userfiles/";
-$config['BaseDir'] = $_SERVER['DOCUMENT_ROOT'].'/assets/images/uploads';
+$config['BaseDir'] = $_SERVER['DOCUMENT_ROOT'].'/assets/images/';
 
 $config['ResourceType']['Files'] = Array(
 		'maxSize' => 0, 			// maxSize in bytes for uploaded files, 0 for any
