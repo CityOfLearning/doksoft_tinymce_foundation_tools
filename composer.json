@@ -2,6 +2,11 @@
     "name": "cityoflearning/doksoft_tinymce_foundation_tools",
     "description": "This is a purchased library of tools for TinyMCE",
     "version": "1.0.0",
+    "support": {
+        "issues": "http://xkcd.com/258/",
+        "forum": "http://forums.modx.com/",
+        "source": "http://doksoft.com/soft/tinymce-foundation/index.html"
+    },
     "authors": [{
         "name": "doksoft",
         "homepage": "http://doksoft.com/soft/tinymce-foundation/index.html"
